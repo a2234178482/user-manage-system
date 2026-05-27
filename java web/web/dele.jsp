@@ -1,0 +1,81 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>删除用户</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            min-width: 400px;
+        }
+        h2 { text-align: center; color: #333; margin-bottom: 30px; }
+        .form-group {
+            margin-bottom: 18px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+            font-size: 14px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .form-group input:focus {
+            border-color: #f5576c;
+        }
+        .btn-submit {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #f5576c, #ff6a88);
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .btn-submit:hover { opacity: 0.9; }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back-link:hover { color: #f5576c; }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>删除用户</h2>
+        <form action="deleShow.jsp" method="post">
+            <div class="form-group">
+                <label>用户ID</label>
+                <input type="number" name="id" required placeholder="请输入要删除的用户ID">
+            </div>
+            <input type="submit" value="确认删除" class="btn-submit">
+        </form>
+        <a href="index.jsp" class="back-link">返回主页</a>
+    </div>
+</body>
+</html>

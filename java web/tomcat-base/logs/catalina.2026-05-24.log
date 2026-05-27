@@ -1,0 +1,76 @@
+24-May-2026 15:37:06.321 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.1.53
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 18 2026 13:50:42 UTC
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.1.53.0
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-17
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    17.0.17+8-LTS-360
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java——code\java web\tomcat-base
+24-May-2026 15:37:06.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tomcat\apache-tomcat-10.1.53
+24-May-2026 15:37:06.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=d:\java——code\java web\tomcat-base\conf\logging.properties
+24-May-2026 15:37:06.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2026 15:37:06.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2026 15:37:06.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2026 15:37:06.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dsun.io.useCanonCaches=false
+24-May-2026 15:37:06.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2026 15:37:06.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+24-May-2026 15:37:06.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2026 15:37:06.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2026 15:37:06.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2026 15:37:06.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2026 15:37:06.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=d:\java——code\java web\tomcat-base
+24-May-2026 15:37:06.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\tomcat\apache-tomcat-10.1.53
+24-May-2026 15:37:06.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=d:\java——code\java web\tomcat-base\temp
+24-May-2026 15:37:06.363 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.6]加载了基于APR的Apache Tomcat本机库[2.0.14]。
+24-May-2026 15:37:06.367 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.5.5 27 Jan 2026]
+24-May-2026 15:37:06.551 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+24-May-2026 15:37:06.581 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[456]毫秒内初始化
+24-May-2026 15:37:06.613 严重 [main] org.apache.catalina.users.MemoryUserDatabase.open 指定用户数据库[conf/tomcat-users.xml]未找到
+24-May-2026 15:37:06.619 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+24-May-2026 15:37:06.620 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.1.53]
+24-May-2026 15:37:06.633 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[D:\java——code\java web\tomcat-base\conf\Catalina\localhost\UserManage.xml]。
+24-May-2026 15:37:06.650 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[D:\java——code\java web\tomcat-base\conf\Catalina\localhost\UserManage.xml]中值为[/UserManage]的路径属性已被忽略
+24-May-2026 15:37:07.262 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+24-May-2026 15:37:07.353 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[D:\java——code\java web\tomcat-base\conf\Catalina\localhost\UserManage.xml]的部署已在[718]ms内完成
+24-May-2026 15:37:07.361 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+24-May-2026 15:37:07.445 信息 [main] org.apache.catalina.startup.Catalina.start [863]毫秒后服务器启动
+24-May-2026 16:00:15.214 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/10.1.53
+24-May-2026 16:00:15.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 18 2026 13:50:42 UTC
+24-May-2026 16:00:15.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      10.1.53.0
+24-May-2026 16:00:15.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+24-May-2026 16:00:15.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+24-May-2026 16:00:15.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+24-May-2026 16:00:15.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-17
+24-May-2026 16:00:15.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    17.0.17+8-LTS-360
+24-May-2026 16:00:15.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+24-May-2026 16:00:15.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java——code\java web\tomcat-base
+24-May-2026 16:00:15.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tomcat\apache-tomcat-10.1.53
+24-May-2026 16:00:15.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=d:\java——code\java web\tomcat-base\conf\logging.properties
+24-May-2026 16:00:15.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2026 16:00:15.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2026 16:00:15.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2026 16:00:15.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dsun.io.useCanonCaches=false
+24-May-2026 16:00:15.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2026 16:00:15.234 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+24-May-2026 16:00:15.234 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2026 16:00:15.234 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2026 16:00:15.234 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2026 16:00:15.235 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2026 16:00:15.235 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=d:\java——code\java web\tomcat-base
+24-May-2026 16:00:15.235 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\tomcat\apache-tomcat-10.1.53
+24-May-2026 16:00:15.235 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=d:\java——code\java web\tomcat-base\temp
+24-May-2026 16:00:15.238 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.6]加载了基于APR的Apache Tomcat本机库[2.0.14]。
+24-May-2026 16:00:15.241 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.5.5 27 Jan 2026]
+24-May-2026 16:00:15.413 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+24-May-2026 16:00:15.433 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[394]毫秒内初始化
+24-May-2026 16:00:15.460 严重 [main] org.apache.catalina.users.MemoryUserDatabase.open 指定用户数据库[conf/tomcat-users.xml]未找到
+24-May-2026 16:00:15.465 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+24-May-2026 16:00:15.465 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/10.1.53]
+24-May-2026 16:00:15.476 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[D:\java——code\java web\tomcat-base\conf\Catalina\localhost\UserManage.xml]。
+24-May-2026 16:00:15.490 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[D:\java——code\java web\tomcat-base\conf\Catalina\localhost\UserManage.xml]中值为[/UserManage]的路径属性已被忽略
+24-May-2026 16:00:16.131 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+24-May-2026 16:00:16.224 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[D:\java——code\java web\tomcat-base\conf\Catalina\localhost\UserManage.xml]的部署已在[745]ms内完成
+24-May-2026 16:00:16.229 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+24-May-2026 16:00:16.319 信息 [main] org.apache.catalina.startup.Catalina.start [886]毫秒后服务器启动
